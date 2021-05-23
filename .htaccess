@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !^on$
+RewriteRule ^(.*)$ https://www.lso-nawojowa.pl/$1 [R=301,L]
